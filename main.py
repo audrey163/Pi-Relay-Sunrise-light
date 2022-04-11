@@ -6,7 +6,7 @@ from time import sleep
 class AudreysSun(Sun):
     def  __init__(self):
         super().__init__(city="Atlanta",utc_offset=-4)
-        self.host = 'http://10.0.0.4:420'
+        self.host = 'http://127.0.0.1:420'
         self.streams = 'http://uk1.internet-radio.com:4086/listen.pls'
     def dusk(self):
 
