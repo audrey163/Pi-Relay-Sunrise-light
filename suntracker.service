@@ -1,0 +1,9 @@
+[Unit]
+Description=Sun Tracker
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /home/pi/Pi-Relay-Sunrise-light/suntracker.py
+[Install]
+WantedBy=multi-user.target
